@@ -89,6 +89,31 @@ Full table-by-table schema description: [`data/DATABASE_SCHEMA.txt`](data/DATABA
 - **Maintenance cost is evenly spread** across Preventive, Repair, Tire, Brake, and Engine categories (no single dominant failure mode); Inspection is the smallest cost category.
 - Full breakdown and charts: see `notebook/logistics_analysis.ipynb`.
 
+## Key Visualizations
+
+**Monthly revenue trend (2022-2024)**
+
+![Monthly revenue trend](images/01_monthly_revenue_trend.png)
+
+**Top 10 lanes by total revenue**
+
+![Top lanes by revenue](images/02_top_lanes_revenue.png)
+
+**Maintenance cost by type**
+
+![Maintenance cost by type](images/03_maintenance_cost_by_type.png)
+
+**Revenue share by customer contract type**
+
+<img src="images/04_revenue_share_customer_type.png" width="380" alt="Revenue share by customer type">
+
+**Safety incident claims by type**
+
+![Safety claims by type](images/05_safety_claims_by_type.png)
+
+More charts and the full analysis are in [`notebook/logistics_analysis.ipynb`](notebook/logistics_analysis.ipynb).
+
+
 ## Data Notes / Caveats
 
 - `trip_status` and `load_status` are constant (`Completed`) across the whole dataset — not usable as filters.
