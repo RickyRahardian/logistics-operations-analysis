@@ -2,7 +2,7 @@
 
 End-to-end SQL + Python analysis of a trucking company's operations database, covering driver performance, route profitability, fleet utilization, maintenance cost, fuel efficiency, customer revenue, safety incidents, and seasonal trends.
 
-**Dataset:** [Logistics Operations Database — 3-Year Trucking Operations](https://www.kaggle.com/) (Kaggle), 14 relational tables covering 2022-01-01 to 2024-12-31.
+**Dataset:** [Logistics Operations Database — 3-Year Trucking Operations], 14 relational tables covering 2022-01-01 to 2024-12-31.
 
 ## Project Overview
 
